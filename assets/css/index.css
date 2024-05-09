@@ -1,0 +1,40 @@
+/* Importo Fuente de letra Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+main {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#Nosotros .texto p {
+    text-align: justify;
+}
+
+.bg-cian {
+    background-color: #10c5fa;
+}
+
+.font-700 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: whitesmoke;
+    --bs-tooltip-color: black;
+}
